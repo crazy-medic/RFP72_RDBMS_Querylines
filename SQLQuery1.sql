@@ -12,3 +12,6 @@ Create table emp_payroll(
 INSERT INTO emp_payroll (name,salary) values ('Ajay Devgan',10200345.98);
 ---UC4 Selecting from table---
 select * from emp_payroll;
+----UC5 selecting particular searched item----
+select id,name from emp_payroll where name='Ajay Devgan';
+select * from emp_payroll where JoiningDate between cast('2021-11-21' as date) and GETDATE();
