@@ -10,3 +10,5 @@ Create table emp_payroll(
 );
 ---UC3 inserting new employees into the table created ----
 INSERT INTO emp_payroll (name,salary) values ('Ajay Devgan',10200345.98);
+---UC4 Selecting from table---
+select * from emp_payroll;
