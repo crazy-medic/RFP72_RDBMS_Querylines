@@ -8,3 +8,5 @@ Create table emp_payroll(
 	salary float,
 	JoiningDate date
 );
+---UC3 inserting new employees into the table created ----
+INSERT INTO emp_payroll (name,salary) values ('Ajay Devgan',10200345.98);
